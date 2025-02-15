@@ -3,7 +3,7 @@ import "./Avatar.css"
 
 const Avatar = (nome) => {
   return (
-    <div>Avatar</div>
+    <div></div>
   )
 }
 
