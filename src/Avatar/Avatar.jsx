@@ -3,7 +3,7 @@ import "./Avatar.css"
 
 const Avatar = (nome) => {
   return (
-    <div></div>
+    <div>olá mundo</div>
   )
 }
 
