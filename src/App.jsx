@@ -1,11 +1,21 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import { createBrowserRouter, Link, RouterProvider } from "react-router-dom";
+import Rodape from "./comum/componentes/Rodape/Rodape";
+
+const router = createBrowserRouter([
+  {
+    path: "",
+    element: <PaginaInicial />,
+  },
+]);
 
 function App() {
-  return 
-  <> </>;
+  return (
+    <>
+      <RouterProvider router={router} />
+      <Rodape/>
+    </>
+  );
 }
 
 export default App;

@@ -1,0 +1,12 @@
+.rodape_root {
+    height: 48px;
+    background-color: var(--cor-primaria-clara);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rodape_root p {
+  color: black;
+  opacity: 0.6;
+}
